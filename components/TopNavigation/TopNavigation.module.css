@@ -1,0 +1,38 @@
+#top-navbar{
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  border-radius: 0px;
+  margin-top: 20px;
+  padding: 25px;
+  text-align: right;
+  position: relative;
+  min-height: 60px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+}
+
+.header-logo{
+  background: url(/images/logo.svg) no-repeat;
+  width: 200px;
+  height: auto;
+  min-height: 45px;
+  text-align: left;
+  font-weight: bold;
+  display: -moz-inline-stack;
+  display: flex;
+  zoom: 1;
+  font-size: 40px;
+  z-index: 10;
+  position: relative;
+  padding: 0px 20px;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+}
