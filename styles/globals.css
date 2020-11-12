@@ -477,7 +477,7 @@ a.footer-logo, p.footer-navigation {
   z-index: 12;
   position: relative;
   min-height: 100vh;
-  background:url(/images/lighthouse-yellow.jpeg);
+  background:url(/images/lighthouse-yellow.jpeg) no-repeat;
 }
 
 .vh-forty{
@@ -517,8 +517,9 @@ a.footer-logo, p.footer-navigation {
     font-size: 26px !important;
   }
   .home-intro{
-    background:url(/images/lighthouse-yellow-mobile.jpeg);
+    background:url(/images/lighthouse-yellow-mobile.jpeg) no-repeat;
     background-position:center center;
+    background-size:cover;
   }
   .home-intro .logo{
     max-width:85% !important;
