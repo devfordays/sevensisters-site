@@ -15,7 +15,7 @@ export default function HomePage() {
       <Container>
         <Row>
           <Col xs={12}>
-            <img src="images/logo-white.svg" className="logo" alt="Seven Sisters Senior Care" style={{maxWidth:'40%', height:'auto'}}/>
+            <img src="images/logo-white.svg" className="logo" alt="Seven Sisters Senior Care" style={{maxWidth:'55%', height:'auto'}}/>
             <h3 className="white"></h3>
           </Col>
           <Col md={12} lg={5}>
